@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+div {
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.big-letter {
+    font-size: 26px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  background-color: rgb(250, 157, 157);
+  font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+#second-line {
+  color: rgb(54, 0, 248);
+  font-size: 36px;
+}
+
+#fourth-line {
+    background-color: rgb(117, 248, 117);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
