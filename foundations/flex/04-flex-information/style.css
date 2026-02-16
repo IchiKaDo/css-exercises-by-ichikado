@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Answer */
+
+/* the display and justify here was redundant it seems */
+.title {
+  justify-self: center;
+  margin-bottom: 32px;
+}
+
+/* should have used "max-width" here */
+.containers {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 52px;
+}
+
+.imgs{
+  margin: auto;
+}
+
+/* should have used text align to the body as text and title are both text */
+.text {
+  text-align: center; 
+  width: 200px;
+  height: 50px;
+}
+
+.main_container {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: center;
+}
